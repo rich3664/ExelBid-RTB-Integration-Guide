@@ -194,7 +194,8 @@ RTB 시작은 입찰 요청을 보내면서 시작됩니다. BidRequest는 하�
  tmax   | integer      |               | 입찰에 참여하기 위한 밀리세턴드 단위 최대 지연시간                        
  cur    | string array | 기본값 "USD"  | ISO–4217 코드의 단위통화 리스트.                                          
  bcat   | string array |               | 제외되어야 할 광고주 카테고리 리스트<br/>IAB OpenRTB Spec 2.3 > 표 5.1 조
- badv   | string array |               | 제외되어야 할 광고주의 최상위 도메인 리스트.                              
+ badv   | string array |               | 제외되어야 할 광고주의 최상위 도메인 리스트.            
+ ext    | object       |               | uids 포함. 3.2.1.1 Object: Ext 참조 
 
 ##### 3.2.2 Object: Imp
 
